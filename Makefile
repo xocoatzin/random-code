@@ -20,5 +20,5 @@ uploadfs:
 update:
 	pio -f -c vim update
 
-menuconfig:
-	pio run -t menuconfig
+monitor:
+	pio device monitor
